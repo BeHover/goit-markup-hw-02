@@ -42,6 +42,10 @@ a:focus {
   color: var(--color-blue);
 }
 
+.nav-list {
+  list-style: none;
+}
+
 .nav-link {
   font-size: 14px;
   font-weight: 500;
@@ -55,6 +59,10 @@ a:focus {
 
 .nav-link.active {
   color: var(--color-blue);
+}
+
+.contacts-list {
+  list-style: none;
 }
 
 .contacts-link {
@@ -95,6 +103,11 @@ a:focus {
   letter-spacing: 0.06em;
 }
 
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #188CE8;
+}
+
 .btn-secondary {
   background-color: #f5f4fa;
   font-weight: 500;
@@ -106,6 +119,10 @@ a:focus {
 .btn-secondary:focus {
   background-color: var(--color-blue);
   color: var(--color-white);
+}
+
+.feature-list {
+  list-style: none;
 }
 
 .feature-title {
@@ -129,8 +146,16 @@ a:focus {
   letter-spacing: 0.03em;
 }
 
+.gallery-list {
+  list-style: none;
+}
+
 .team {
   background-color: #f5f4fa;
+}
+
+.team-list {
+  list-style: none;
 }
 
 .team-name {
@@ -143,6 +168,14 @@ a:focus {
   color: var(--color-grey);
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.controls-list {
+  list-style: none;
+}
+
+.project-list {
+  list-style: none;
 }
 
 .project-link:hover,
