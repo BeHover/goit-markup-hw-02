@@ -32,8 +32,7 @@ body {
   color: var(--color-dark);
 }
 
-.logo:hover,
-.logo:focus {
+.logo:hover, .logo:focus {
   color: var(--color-dark);
 }
 
